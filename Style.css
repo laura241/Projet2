@@ -16,34 +16,46 @@ body
 {
 
 	font-family: 'advent_promedium', Arial, serif;
+	
 }
 
 
 nav
 {
-	background-color: rgb(0,176,255);
+
+	background-color: rgb(0, 137, 123);
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
 	top: 0px;
-	width: 25%;
-	height: auto;
-
+	width: 25%;	
+	color: rgb(109, 76, 65);
 }
 
-.TitreNav
+		ul
+
+		{
+
+			list-style: none;
+		}
+
+#NavContenair
 
 {
-	background-color: rgb(158,158,158);
+	display: flex;
+	flex-direction: column;	
+
 }
+
 
 h2
 
 {
-
+	background-color: rgb(109, 76, 65);
 	text-align: center;
 	font-size: 1.5em;
-	color: rgb(0,176,255);
+	color: rgb(0, 137, 123);
+	
 
 }
 
@@ -51,9 +63,8 @@ h2
 
 {
 
-  border: 2px dotted rgb(0,176,255);
-  width: 250px;
-  height: 250px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
 
 }
@@ -64,25 +75,58 @@ img
 	width: 	inherit;
 	height: inherit;
 	border-radius: inherit;
+	position: absolute;
+	left: 70px;
+	top: 10px;
+	right: 30px;	
 	
 }
   
 
-
-
 #contact
 
-	ul
-		{
-			list-style-type: none;
-			
-		}	
 {
+	text-align: left;
+	margin-left: 20px;
 
-	height: 386px;
+
 }
 
-#text
+
+
+
+.NavPart
 {
-	height:777px;
+	height: auto;
+	text-align: justify;
+	
+	
 }
+
+#Apropos
+
+{
+
+	text-align: justify;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+
+
+header
+
+{
+	text-align: center;
+}
+
+#container
+
+{
+
+	display: flex;
+	flex-direction: column;
+	width: 	auto;
+	margin-left: 25%
+}
+
