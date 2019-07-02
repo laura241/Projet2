@@ -11,41 +11,37 @@
 
 }
 
+
+
 body
 
 {
 
 	font-family: 'advent_promedium', Arial, serif;
+	color: rgb(62, 39, 35);
+	bottom: 0px;
+	top: 0px;
 	
 }
 
 
-nav
-{
+aside
 
+{
+	
 	background-color: rgb(0, 137, 123);
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
-	top: 0px;
-	width: 25%;	
-	color: rgb(109, 76, 65);
+	float: left;
+	width: 350px;
+	
 }
 
-		ul
-
-		{
-
-			list-style: none;
-		}
-
-#NavContenair
+.asidePart
 
 {
-	display: flex;
-	flex-direction: column;	
-
+	margin-left:10px;
+	margin-right:10px;
 }
+
 
 
 h2
@@ -56,29 +52,41 @@ h2
 	font-size: 1.5em;
 	color: rgb(0, 137, 123);
 	
-
 }
+
+.photoSize
+{
+
+	display: flex;
+	justify-content: center;
+}
+
+
 
 #boxphoto
 
 {
 
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
+	width: 130px;
+  	height: 130px;
+  	border-radius: 50%;
+  	position: relative;
+  	overflow: hidden;
+  	margin-top: 9px;
+  	box-shadow: 3px 3px 3px rgb(109,76,65)
 
 }
+
 
 img
 
 {
-	width: 	inherit;
-	height: inherit;
-	border-radius: inherit;
+	
+	
 	position: absolute;
-	left: 70px;
-	top: 10px;
-	right: 30px;	
+	bottom: -38px;
+	width: 100%
+	
 	
 }
   
@@ -86,38 +94,44 @@ img
 #contact
 
 {
-	text-align: left;
-	margin-left: 20px;
-
+	
+	list-style: none;
+	
 
 }
 
-
-
-
-.NavPart
-{
-	height: auto;
-	text-align: justify;
-	
-	
-}
 
 #Apropos
 
 {
 
 	text-align: justify;
-	margin-left: 20px;
-	margin-right: 20px;
+	
 	
 }
+
+#loisirs
+{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+
 
 
 header
 
 {
 	text-align: center;
+
+}
+
+#title
+
+{
+	color: 	rgb(0,137,123);
 }
 
 #container
@@ -126,7 +140,15 @@ header
 
 	display: flex;
 	flex-direction: column;
-	width: 	auto;
-	margin-left: 25%
+	position: relative;
+	padding:30px;
+}
+
+h3
+
+{
+	margin:5px;	
+	border-bottom:2px solid rgb(0,137,123)
+		
 }
 
