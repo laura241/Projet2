@@ -12,10 +12,7 @@
 }
 
 
-
-body
-
-{
+body{
 
 	font-family: 'advent_promedium', Arial, serif;
 	color: rgb(62, 39, 35);
@@ -23,34 +20,27 @@ body
 	width: auto;
 	margin:	auto;
 	padding: 20px;
-	
 }
 
 
-aside
-
-{
+aside{
 	
 	background-color: rgb(0, 137, 123);
 	float: left;
 	width: 350px;
-	height: 2000px;
-	
+	height: 1271px;
 }
 
 
-aside h2
-
-{
+.TitleAside{
 	background-color: rgb(109, 76, 65);
 	text-align: center;
 	font-size: 1.5em;
 	color: rgb(0, 137, 123);
-	
 }
 
-.photoSize
-{
+
+.photoSize{
 
 	display: flex;
 	justify-content: center;
@@ -58,9 +48,7 @@ aside h2
 
 
 
-#boxphoto
-
-{
+#boxphoto{
 
 	width: 130px;
   	height: 130px;
@@ -69,15 +57,10 @@ aside h2
   	overflow: hidden;
   	margin-top: 9px;
   	box-shadow: 3px 3px 3px rgb(109,76,65)
-
 }
 
 
-img
-
-{
-	
-	
+img{
 	position: absolute;
 	bottom: -38px;
 	width: 100%
@@ -85,9 +68,10 @@ img
   
 
 #contact{
-	
+
 	margin-left: 20px;
 	margin-right: 20px;
+	height: 200px;
 }
 
 
@@ -96,7 +80,7 @@ img
 	text-align: justify;
 	margin-left: 30px;
 	margin-right: 30px;
-	height: 20%;
+	height: 400px;
 }
 
 #loisirs{
@@ -104,6 +88,7 @@ img
 	justify-content: space-between;
 	margin-left: 30px;
 	margin-right: 30px;
+	height: 400px;
 }
 
 
@@ -120,51 +105,61 @@ header{
 }
 
 
-#title2{
-	text-decoration: underline rgb(0,137,123);
-}
-
 
 .TitlePart{
 
 	text-align: left;
 	padding-left: 30%;
-	margin-left: 2%;
-	border-bottom: 2px solid rgb(0,137,123);
-}
-
-.fas .far
-
-{
-	display: inline-block;
+	color:rgb(0, 137, 123);
 	
 }
 
 
-		h2{
-
+.TitleBoxText{
+	display: inline-block;
 	font-size: 1.5em;
 	color: 	black;
+	padding-left: 5%;
 }
 
-.TitleFont{
 
-	display: inline-block;
-	margin-left: 2%;
-	width: 80%;
+.fas,.far{
+	display: inline-block;	
 }
 
-	
+section{
+
+	border-top: 2px solid rgb(0,137,123);
+	margin-left: 30%;
+}
 
 .Date{
 
 	display: inline-block;
+	vertical-align: top;
+	width: 25%;
 
 }
 
 .Text{
 
 	display: inline-block;
+	vertical-align: top;
+	list-style: none;
+	padding-left: 10%;
+
+}
+
+h3{
+	text-align: center;
+}
+
+
+
+#Skills{
+
+	display: flex;
+	justify-content: space-between;
 }
 
 
