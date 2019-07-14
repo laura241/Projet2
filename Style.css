@@ -14,7 +14,7 @@
 
 body{
 
-	font-family: Arial, serif;
+	font-family: arial, serif;
 	color: rgb(62, 39, 35);
 	font-size: 0.9em;
 	width: auto;
@@ -22,6 +22,30 @@ body{
 	padding: 20px;
  }
 
+
+header{
+	font-family:'advent_promedium';
+	display: inline-block;
+	text-align: left;
+	height: 200px;
+	padding-left: 2%;
+	padding-top: 0.5%;
+	font-size: 1.6em;
+}
+
+h1{
+	color: rgb(109, 76, 65);
+}
+
+header p{
+	color: rgb(109, 76, 65);
+	font-size: 1.6em;
+}
+
+
+#title{
+	color: 	rgb(0,137,123);
+}
 
 aside{
 	
@@ -106,13 +130,12 @@ img{
 }
 
 
-
-
 #Apropos{
 	text-align: justify;
 	margin-left: 30px;
 	margin-right: 30px;
 	height: 400px;
+	line-height: 1.7em;
 }
 
 
@@ -125,53 +148,9 @@ img{
 	height: 400px;
 }
 
-.biking::before{
-	font-family: "Font Awesome 5 free";
-	content: "\f206";
-	font-weight: 900;
-	font-size: 2em;
-}
-
-.running::before{
-	font-family: "Font Awesome 5 free";
-	content: "\f70c";
-	font-weight: 900;
-	font-size: 2em;
-}
-
-.book::before{
-	font-family: "Font Awesome 5 free";
-	content: "\f02d";
-	font-weight: 900;
-	font-size: 2em;
-}
-
-.film::before{
-	font-family: "Font Awesome 5 free";
-	content: "\f008";
-	font-weight: 900;
-	font-size: 2em;
-}
-
-
-header{
-	font-family:'advent_promedium';
-	display: inline-block;
-	text-align: left;
-	height: 200px;
-	padding-left: 2%;
-	padding-top: 0.5%;
-	font-size: 1.6em;
-}
-
-#title{
-	color: 	rgb(0,137,123);
-}
-
 
 
 .TitlePart{
-	font-family:'advent_promedium';
 	text-align: left;
 	margin-left:29%;
 	color:rgb(0, 137, 123);
@@ -181,12 +160,17 @@ header{
 
 
 .TitleSectionText{
+	font-family:'advent_promedium';
 	display: inline-block;
 	font-size: 1.5em;
-	color: 	black;
+	color: rgb(109,76,65);
 	margin-left: 2%;
 }
 
+
+.MainSection{
+	margin-top: 50px;
+}
 
 .graduate::before{
 	font-family: "Font Awesome 5 free";
@@ -207,6 +191,14 @@ header{
 	content: "\f0eb";
 	font-weight: 900;
 	font-size: 3em;
+}
+
+.check::before{
+	font-family: "Font Awesome 5 free";
+	content: "\f058";
+	font-weight: 900;
+	font-size: 1em;
+	margin-right: 2px;
 }
 
 
@@ -244,30 +236,73 @@ h3{
 
 	body{
 		width: 100%;
+		margin: 0;
+		padding-left: 2%;
 	}
 
 	header{
-		height: 171px;
-	}
-
-
-	#boxphoto{
-		display: none;
+		height: auto;
 	}
 
 
 	aside{
+		display: flex;
+		flex-wrap: wrap;
 		height: 441px;
 		width: 100%;
 	}
 
+	.asidePart{
+		width: 50%;
+	}
+
+	.TitleAside{
+		font-size: 1.2em;
+		margin-top: 0%;
+	}
+
+	#boxphoto{
+		width: 108px;
+		height: 108px;
+	}
+
 	
 	#contact{
-		height: 64px;
+		font-size: 0.8em;
+		height: auto;
+		margin-left: 0;
+
 	}
 
 	#Apropos{
-		height: 145px;
+		font-size: 0.7em;
+		margin-left: 5px;
+		line-height: 1.4em;
+		text-align: center;
+	}
+
+	#loisirs{
+		flex-direction: column;
+		align-items: center;
+		height: 208px;
+	}
+
+
+	.MainSection{
+		margin-top: 21px;
+	}
+
+
+	.graduate::before{
+		font-size: 1.5em;
+	}
+
+	.briefcase::before{
+		font-size: 1.5em;
+	}
+
+	.lightbulb::before{
+		font-size: 1.5em;
 	}
 
 	.TitlePart{
@@ -275,22 +310,35 @@ h3{
 	}
 
 	.TitleSectionText{
-		font-size: 1.3em;
+		font-size: 1.1em;
+		text-align: center;
 	}
 
 	.Text{
-			width: 100%;
+			width: 95%;
 			margin-left: 0;
+			margin-top: 0;
 	}
 
 	.Date{
 		width: 100%;
 		margin-left: 0;
+		margin-top: 24px;
 	}
 
 
 	#Skills{
 		flex-direction: column;
+		
+	}
+
+	h3{
+		font-size: 0.9em;
+		text-align: left;
+	}
+
+	.PartSkills li{
+		display: inline;
 	}
 
 
