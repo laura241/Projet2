@@ -95,7 +95,6 @@ img{
 	display: inline-block;
 	font-style: normal;
   	font-variant: normal;
-  	text-rendering: auto;
   	margin-right: 9px;
   	-webkit-font-smoothing: antialiased;
 }
@@ -274,8 +273,6 @@ img{
 
 	.asidePart:nth-child(3n){
 		width: 100%;
-		margin-left: 2px;
-		margin-right: 2px;
 		height: 180px;
 	}
 
@@ -369,6 +366,7 @@ img{
 	.PartSkills h3{
 		text-align: left;
 		font-size: 1em;
+		margin-top: 24px;
 	}
 
 
