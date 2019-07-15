@@ -2,7 +2,6 @@
     font-family: 'advent_promedium';
     src: url('Fonts/adventpro-medium-webfont.eot');
     src: url('Fonts/adventpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Fonts/adventpro-medium-webfont.woff2') format('woff2'),
          url('Fonts/adventpro-medium-webfont.woff') format('woff'),
          url('Fonts/adventpro-medium-webfont.ttf') format('truetype'),
          url('Fonts/adventpro-medium-webfont.svg#advent_promedium') format('svg');
