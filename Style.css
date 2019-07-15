@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'advent_promedium';
-    src: url('fonts/adventpro-medium-webfont.eot');
-    src: url('fonts/adventpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/adventpro-medium-webfont.woff2') format('woff2'),
-         url('fonts/adventpro-medium-webfont.woff') format('woff'),
-         url('fonts/adventpro-medium-webfont.ttf') format('truetype'),
-         url('fonts/adventpro-medium-webfont.svg#advent_promedium') format('svg');
+    src: url('Fonts/adventpro-medium-webfont.eot');
+    src: url('Fonts/adventpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Fonts/adventpro-medium-webfont.woff2') format('woff2'),
+         url('Fonts/adventpro-medium-webfont.woff') format('woff'),
+         url('Fonts/adventpro-medium-webfont.ttf') format('truetype'),
+         url('Fonts/adventpro-medium-webfont.svg#advent_promedium') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -275,11 +275,24 @@ img{
 		width: 50%;
 	}
 
+	.asidePart:nth-child(3n){
+		width: 100%;
+		margin-left: 2px;
+		margin-right: 2px;
+		height: 167px;
+	}
 
+	.asidePart:nth-child(4n){
+		width: 100%;
+	}
 
 	.TitleAside{
 		font-size: 1.2em;
 		margin-top: 0%;
+	}
+
+	.TitleAside h2{
+		width: 100%;
 	}
 
 	#boxphoto{
@@ -296,18 +309,11 @@ img{
 	}
 
 	#Apropos{
-		font-size: 0.7em;
-		margin-left: 4px;
-		line-height: 0.9em;
-		margin-right: 1px;
-		width: 100%;
+		font-size: 0.8em;
+		margin-left: 20px;
+		margin-right: 20px;
+		line-height: 1.2em;
 	}
-
-	#loisirs{
-		height: 160px;
-		width: 100%;
-	}
-
 
 	.MainSection{
 		margin-top: 21px;
@@ -365,8 +371,8 @@ img{
 	}
 
 	.PartSkills h3{
-		font-size: 0.9em;
 		text-align: left;
+		font-size: 1em;
 	}
 
 
