@@ -13,7 +13,6 @@
 
 
 body{
-
 	font-family: arial, serif;
 	color: rgb(62, 39, 35);
 	font-size: 0.9em;
@@ -27,7 +26,7 @@ header{
 	font-family:'advent_promedium';
 	display: inline-block;
 	text-align: left;
-	height: 200px;
+	height: 150px;
 	padding-left: 2%;
 	padding-top: 0.5%;
 	font-size: 1.6em;
@@ -35,6 +34,7 @@ header{
 
 h1{
 	color: rgb(109, 76, 65);
+	margin-top: 2px;
 }
 
 header p{
@@ -134,7 +134,7 @@ img{
 	text-align: justify;
 	margin-left: 30px;
 	margin-right: 30px;
-	height: 400px;
+	height: 500px;
 	line-height: 1.7em;
 }
 
@@ -145,7 +145,7 @@ img{
 	justify-content: space-between;
 	margin-left: 30px;
 	margin-right: 30px;
-	height: 400px;
+	height: 300px;
 }
 
 
@@ -176,21 +176,21 @@ img{
 	font-family: "Font Awesome 5 free";
 	content: "\f19d";
 	font-weight: 900;
-	font-size: 3em;
+	font-size: 2.5em;
 }
 
 .briefcase::before{
 	font-family: "Font Awesome 5 free";
 	content: "\f0b1";
 	font-weight: 900;
-	font-size: 3em;
+	font-size: 2.5em;
 }
 
 .lightbulb::before{
 	font-family: "Font Awesome 5 free";
 	content: "\f0eb";
 	font-weight: 900;
-	font-size: 3em;
+	font-size: 2.5em;
 }
 
 .check::before{
@@ -206,10 +206,11 @@ img{
 
 	display: inline-block;
 	vertical-align:	top;
-	width: 25%;
-	margin-top: 2%;
+	width: 30%;
 	margin-left: 5%;
+	margin-top: 2%;
 }
+
 
 .Text{
 	display: inline-block;
@@ -219,7 +220,19 @@ img{
 	margin-left: 3%;
 }
 
-h3{
+.Date h3{
+	text-align: left;
+	font-size: 1em;
+	margin: 0;
+}
+
+.Text h3{
+	font-size: 1em;
+	margin:0;
+}
+
+
+.PartSkills h3{
 	text-align: center;
 }
 
@@ -228,33 +241,41 @@ h3{
 	justify-content: space-around;
 }
 
-.PartSkills li{
-	margin-left: 1%;
-}
+
 
 @media screen and (max-width: 1280px){
 
 	body{
 		width: 100%;
 		margin: 0;
-		padding-left: 2%;
+		padding-left: 0%;
 	}
 
 	header{
 		height: auto;
 	}
 
+	h1{
+		font-size: 1.6em;
+	}
+
+	header p{
+		
+	font-size: 1.4em;
+	}
 
 	aside{
 		display: flex;
 		flex-wrap: wrap;
-		height: 441px;
+		height: 399px;
 		width: 100%;
 	}
 
 	.asidePart{
 		width: 50%;
 	}
+
+
 
 	.TitleAside{
 		font-size: 1.2em;
@@ -276,15 +297,15 @@ h3{
 
 	#Apropos{
 		font-size: 0.7em;
-		margin-left: 5px;
-		line-height: 1.4em;
-		text-align: center;
+		margin-left: 4px;
+		line-height: 0.9em;
+		margin-right: 1px;
+		width: 100%;
 	}
 
 	#loisirs{
-		flex-direction: column;
-		align-items: center;
-		height: 208px;
+		height: 160px;
+		width: 100%;
 	}
 
 
@@ -306,7 +327,7 @@ h3{
 	}
 
 	.TitlePart{
-		margin-left: 0;
+		margin-left: 6px;
 	}
 
 	.TitleSectionText{
@@ -315,30 +336,37 @@ h3{
 	}
 
 	.Text{
-			width: 95%;
-			margin-left: 0;
-			margin-top: 0;
+		width: 95%;
+		margin-left: 8px;
+		margin-top: 0;
 	}
 
 	.Date{
 		width: 100%;
-		margin-left: 0;
+		margin-left: 8px;
 		margin-top: 24px;
 	}
 
 
 	#Skills{
 		flex-direction: column;
+		line-height: 2px;
 		
 	}
 
-	h3{
-		font-size: 0.9em;
-		text-align: left;
+
+	.PartSkills{
+		margin-left: 8px;
 	}
 
 	.PartSkills li{
 		display: inline;
+		margin-left: 8px;
+	}
+
+	.PartSkills h3{
+		font-size: 0.9em;
+		text-align: left;
 	}
 
 
