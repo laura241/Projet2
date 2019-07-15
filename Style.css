@@ -80,7 +80,7 @@ aside{
   	border-radius: 50%;
   	position: relative;
   	overflow: hidden;
-  	margin-top: 9px;
+  	margin-top: 11px;
   	box-shadow: 3px 3px 3px rgb(109,76,65)
 }
 
@@ -90,13 +90,14 @@ img{
 	bottom: -38px;
 	width: 100%
 }
-  
+
 
 .Icon::before{
 	display: inline-block;
 	font-style: normal;
   	font-variant: normal;
   	text-rendering: auto;
+  	margin-right: 9px;
   	-webkit-font-smoothing: antialiased;
 }
 
@@ -110,6 +111,7 @@ img{
 	font-family: "Font Awesome 5 free";
 	content: "\f3cd";
 	font-weight: 900; 
+	margin-right: 14px;
 }
 
 .mail::before{
@@ -118,10 +120,6 @@ img{
 	font-weight: 900; 
 }
 
-.skype::before{
-	font-family: "Font Awesome 5 Brands";
-	content: "\f17e";
-}
 
 #contact{
 	margin-left: 20px;
@@ -132,8 +130,8 @@ img{
 
 #Apropos{
 	text-align: justify;
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
 	height: 500px;
 	line-height: 1.7em;
 }
@@ -279,7 +277,7 @@ img{
 		width: 100%;
 		margin-left: 2px;
 		margin-right: 2px;
-		height: 167px;
+		height: 180px;
 	}
 
 	.asidePart:nth-child(4n){
@@ -298,20 +296,19 @@ img{
 	#boxphoto{
 		width: 108px;
 		height: 108px;
+		margin-bottom: 10px;
 	}
 
 	
 	#contact{
 		font-size: 0.8em;
 		height: auto;
-		margin-left: 0;
+		margin-left: 1px;
 
 	}
 
 	#Apropos{
 		font-size: 0.8em;
-		margin-left: 20px;
-		margin-right: 20px;
 		line-height: 1.2em;
 	}
 
