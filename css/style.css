@@ -15,19 +15,17 @@ body{
 	font-size: 0.9em;
 	width: 100%;
 	margin: 0;
-	height: auto;
+	height: 850px;
  }
 
 header{
 	font-family:'advent_promedium';
 	display: inline-block;
-	text-align: center;
 	height: 150px;
 	padding-left: 1%;
 	padding-top: 0.5%;
 	font-size: 1.6em;
 }
-
 
 
 h1{
@@ -78,7 +76,7 @@ aside{
   	border-radius: 50%;
   	position: relative;
   	overflow: hidden;
-  	margin-top: 11px;
+  	margin-top: 5%;
   	box-shadow: 3px 3px 3px rgb(109,76,65)
 }
 
@@ -108,7 +106,7 @@ img{
 	font-family: "Font Awesome 5 free";
 	content: "\f3cd";
 	font-weight: 900; 
-	margin-right: 14px;
+	margin-right: 5%;
 }
 
 .mail::before{
@@ -211,7 +209,8 @@ margin-bottom: 2%;
 	content: "\f058";
 	font-weight: 900;
 	font-size: 1em;
-	margin-right: 2px;
+	margin-right: 2%;
+	margin-left: 2%;
 }
 
 .main-section{
@@ -241,11 +240,11 @@ margin-bottom: 2%;
 	margin:0;
 }
 
+.job{
+	margin-left: 2%;
+}
 
-
-@media screen and (max-width: 1280px){
-
-	
+@media screen and (max-width: 480px){
 
 	h1{
 		font-size: 1.6em;
@@ -289,6 +288,7 @@ margin-bottom: 2%;
 		font-size: 0.8em;
 		line-height: 1.2em;
 		margin-left: 3%;
+		margin-bottom: 2%;
 	}
 
 	.main-section{
@@ -318,8 +318,9 @@ margin-bottom: 2%;
 	}
 
 	.text{
-		margin-left: 2%;
-		font-size: 0.9em
+		margin-left: 4%;
+		font-size: 0.9em;
+		margin-top:0;
 	}
 
 	.date{
@@ -340,3 +341,53 @@ margin-bottom: 2%;
 
 }
 
+@media screen and (min-width: 481px) and (max-width: 960px){
+
+	body{
+		font-size: 0.8em;
+	}
+
+	aside{
+		width: 30%;
+	}
+
+	.title-aside {
+		font-size: 1.3em;
+	}
+
+	.title-part {
+		margin-left: 33%;
+	}
+
+	article{
+		margin-left: 31%;
+	}
+
+	.title-section-text {
+		font-size: 1.3em;
+	}
+
+	.text{
+		display: inherit;
+		width: 100%;
+		margin-left: 4%;
+		margin-top: 0;
+	}
+
+
+	.date{
+		display: inherit;
+		width: 100%;
+		margin-left: 2%;
+	}
+
+	.date strong{
+		font-size: 1em;
+	}
+
+	.text strong{
+		font-size: 1em;
+	}
+
+
+}
